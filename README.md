@@ -16,5 +16,5 @@ A simple iOS Instagram photo browser written in Swift.
 
 ## Screenshots
 
-![](Screenshots/Login.png)
-![](Screenshots/Gallary.png)
+<img src="https://raw.githubusercontent.com/MoZhouqi/PhotoBrowser/master/Screenshots/Login.png" width="320"/>
+<img src="https://raw.githubusercontent.com/MoZhouqi/PhotoBrowser/master/Screenshots/Gallary.png" width="320"/>
