@@ -11,7 +11,7 @@ A simple iOS Instagram photo browser written in Swift.
 ## Requirements
 
 - Xcode 6.1.1
-- iOS 7.0 and later
+- iOS 8.0 and later
 
 ## Libraries Used
 
