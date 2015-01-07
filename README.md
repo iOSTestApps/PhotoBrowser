@@ -14,7 +14,7 @@ A simple iOS Instagram photo browser written in Swift.
 - Xcode 6.1.1
 - iOS 8
 
-# Screenshots
+## Screenshots
 
 ![](Screenshots/Login.png)
 ![](Screenshots/Gallary.png)
