@@ -5,13 +5,12 @@ A simple iOS Instagram photo browser written in Swift.
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/MoZhouqi/PhotoBrowser/master/Screenshots/Login.png" width="355"/>
-<img src="https://raw.githubusercontent.com/MoZhouqi/PhotoBrowser/master/Screenshots/Gallary.png" width="355"/>
+<img src="https://raw.githubusercontent.com/MoZhouqi/PhotoBrowser/master/Screenshots/login.png" width="355"/>
+<img src="https://raw.githubusercontent.com/MoZhouqi/PhotoBrowser/master/Screenshots/gallary.png" width="355"/>
 
 ## Requirements
 
-- Xcode 6.1.1
-- iOS 8.0 and later
+- Xcode 6.3
 
 ## Libraries Used
 

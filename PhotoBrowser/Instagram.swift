@@ -14,7 +14,7 @@ struct Instagram {
     enum Router: URLRequestConvertible {
         static let baseURLString = "https://api.instagram.com"
         static let clientID = "cf97d864faf14f90a1557c4b972c990e"
-        static let redirectURI = "http://www.baidu.com/"
+        static let redirectURI = "http://www.example.com/"
         static let clientSecret = "7f1ce6147f924afc92dea31f5354ca06"
         static let authorizationURL = NSURL(string: Router.baseURLString + "/oauth/authorize/?client_id=" + Router.clientID + "&redirect_uri=" + Router.redirectURI + "&response_type=code")!
         
