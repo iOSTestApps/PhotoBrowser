@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		192CF3D52500AD552EE6B97A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BCDB455095E674811D7E85 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		70E8FB70475388F043574343 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A22959CAC9F19B4052D967B /* AssetsLibrary.framework */; };
+		9A59EA39F9E4A6252C7167F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C13A4D56AD6522C27009D19 /* SystemConfiguration.framework */; };
+		9FCC9126499C9C1038FB8310 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3036036D1E9C37B22FBB37 /* CoreText.framework */; };
+		C420C2E7EC19B84F39D76BB7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5AC722AC42372A7130691 /* CoreTelephony.framework */; };
+		C9FAF67952321A30A669FCC6 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7DD7C0D69398556CD3D511 /* BuddyBuildSDK.framework */; };
 		CD3DE0631A56C4C200A7C5B8 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3DE0621A56C4C200A7C5B8 /* PhotoInfo.swift */; };
 		CD3DE0661A56CE6600A7C5B8 /* FastImageCacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3DE0651A56CE6600A7C5B8 /* FastImageCacheHelper.swift */; };
 		CD3DE0681A56DAE700A7C5B8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3DE0671A56DAE700A7C5B8 /* User.swift */; };
@@ -49,8 +54,12 @@
 
 /* Begin PBXFileReference section */
 		00BCDB455095E674811D7E85 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C13A4D56AD6522C27009D19 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		49F5AC722AC42372A7130691 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		52F082102CF08DB999443C8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		562441392257558E47EC0588 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6A22959CAC9F19B4052D967B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9E7DD7C0D69398556CD3D511 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		CD3DE0621A56C4C200A7C5B8 /* PhotoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 		CD3DE0651A56CE6600A7C5B8 /* FastImageCacheHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastImageCacheHelper.swift; sourceTree = "<group>"; };
 		CD3DE0671A56DAE700A7C5B8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -70,6 +79,7 @@
 		CDC9FB421A47AAC700466910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC9FB431A47AAC700466910 /* PhotoBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowserTests.swift; sourceTree = "<group>"; };
 		CDC9FB4D1A47ABE500466910 /* OauthLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OauthLoginViewController.swift; sourceTree = "<group>"; };
+		DF3036036D1E9C37B22FBB37 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				192CF3D52500AD552EE6B97A /* Pods.framework in Frameworks */,
+				C9FAF67952321A30A669FCC6 /* BuddyBuildSDK.framework in Frameworks */,
+				70E8FB70475388F043574343 /* AssetsLibrary.framework in Frameworks */,
+				9FCC9126499C9C1038FB8310 /* CoreText.framework in Frameworks */,
+				C420C2E7EC19B84F39D76BB7 /* CoreTelephony.framework in Frameworks */,
+				9A59EA39F9E4A6252C7167F9 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				00BCDB455095E674811D7E85 /* Pods.framework */,
+				9E7DD7C0D69398556CD3D511 /* BuddyBuildSDK.framework */,
+				6A22959CAC9F19B4052D967B /* AssetsLibrary.framework */,
+				DF3036036D1E9C37B22FBB37 /* CoreText.framework */,
+				49F5AC722AC42372A7130691 /* CoreTelephony.framework */,
+				0C13A4D56AD6522C27009D19 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -462,6 +482,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PhotoBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -476,6 +500,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PhotoBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
