@@ -18,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, FICImageCacheDelegate {
     lazy var coreDataStack = CoreDataStack()
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        BuddyBuildSDK.setup()
+        
         // Override point for customization after application launch.
         
         FastImageCacheHelper.setUp(self)
